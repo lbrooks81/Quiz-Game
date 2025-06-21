@@ -1,0 +1,5 @@
+10/15
+
+All of the inputs need to be in the form (or each input needs a "form" attribute). 
+Putting a redirect in your header means you will lose the context of any variables declared before the redirect.
+(Or use session variables)
